@@ -5,11 +5,11 @@ using System.Windows;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("TouchEventsInWpfEdition")]
+[assembly: AssemblyTitle("RotateEvents")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("ThinkGeo")]
-[assembly: AssemblyProduct("TouchEventsInWpfEdition")]
+[assembly: AssemblyProduct("RotateEvents")]
 [assembly: AssemblyCopyright("Copyright © ThinkGeo 2011")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

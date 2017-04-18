@@ -3,7 +3,7 @@
 /// <summary>
 /// Interaction logic for App.xaml
 /// </summary>
-namespace TouchEventsInWpfEdition
+namespace RotateEvents
 {
     public partial class App : Application
     {

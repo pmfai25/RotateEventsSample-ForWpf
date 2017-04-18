@@ -12,7 +12,7 @@ using ThinkGeo.MapSuite.Shapes;
 using ThinkGeo.MapSuite.Styles;
 using ThinkGeo.MapSuite.Wpf;
 
-namespace TouchEventsInWpfEdition
+namespace RotateEvents
 {
     public partial class Sample : Window
     {

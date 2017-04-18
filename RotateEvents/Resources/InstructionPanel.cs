@@ -1,6 +1,6 @@
 ﻿using System.Windows.Controls;
 
-namespace TouchEventsInWpfEdition
+namespace RotateEvents
 {
     public class InstructionPanel : ContentControl
     {

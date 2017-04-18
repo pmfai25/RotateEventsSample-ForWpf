@@ -1,10 +1,10 @@
-﻿<Window x:Class="TouchEventsInWpfEdition.Sample"
+﻿<Window x:Class="RotateEvents.Sample"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:uc1="clr-namespace:ThinkGeo.MapSuite.Wpf;assembly=ThinkGeo.MapSuite.Wpf"
-    xmlns:uc2="clr-namespace:TouchEventsInWpfEdition"
+    xmlns:uc2="clr-namespace:RotateEvents"
     Background="#cccccc" Title="Touch Events In Wpf Edition - Map Suite Wpf sample application" Height="768" Width="1024" FontSize="12" FontFamily="arial" 
-    WindowStartupLocation="CenterScreen" Icon="/TouchEventsInWpfEdition;component/Resources/ms.ico" ResizeMode="CanResize" WindowState="Maximized">
+    WindowStartupLocation="CenterScreen" Icon="/RotateEvents;component/Resources/ms.ico" ResizeMode="CanResize" WindowState="Maximized">
     <Grid x:Name="LayoutRoot" MinWidth="300">
         <Grid.RowDefinitions>
             <RowDefinition Height="81"></RowDefinition>

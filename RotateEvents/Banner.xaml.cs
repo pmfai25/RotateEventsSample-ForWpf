@@ -9,7 +9,7 @@ using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Threading;
 
-namespace TouchEventsInWpfEdition
+namespace RotateEvents
 {
     /// <summary>
     /// Interaction logic for SampleBanner.xaml
