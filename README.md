@@ -14,9 +14,16 @@ This sample makes use of the following NuGet Packages
 [MapSuite 10.0.0](https://www.nuget.org/packages?q=ThinkGeo)
 
 ### About the Code
+```csharp
+SimpleMarkerOverlay markerOverlay = new SimpleMarkerOverlay();
+Map1.Overlays.Add("MarkerOverlay", markerOverlay);
 
-Working...
-
+PopupOverlay popupOverlay = new PopupOverlay();
+Map1.Overlays.Add("PopupOverlay", popupOverlay);
+Popup popup = new Popup(new PointShape(-10777662.2854073, 3912165.79621789));
+popup.Content = new TextBlock() { Text = "ThinkGeo", FontSize = 20 };
+popupOverlay.Popups.Add(popup);
+```
 ### Getting Help
 
 [Map Suite Desktop for Wpf Wiki Resources](http://wiki.thinkgeo.com/wiki/map_suite_desktop_for_wpf)
@@ -30,7 +37,9 @@ Working...
 ### Key APIs
 This example makes use of the following APIs:
 
-Working...
+- [ThinkGeo.MapSuite.Wpf.SimpleMarkerOverlay](http://wiki.thinkgeo.com/wiki/api/thinkgeo.mapsuite.wpf.simplemarkeroverlay)
+- [ThinkGeo.MapSuite.Wpf.PopupOverlay](http://wiki.thinkgeo.com/wiki/api/thinkgeo.mapsuite.wpf.popupoverlay)
+- [ThinkGeo.MapSuite.Wpf.Popup](http://wiki.thinkgeo.com/wiki/api/thinkgeo.mapsuite.wpf.popup)
 
 ### About Map Suite
 Map Suite is a set of powerful development components and services for the .Net Framework.
